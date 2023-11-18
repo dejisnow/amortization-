@@ -7,29 +7,31 @@
     <div>
     
     <form>
-      <input id="inputP" placeholder="Principal" type="number" />
+      <input id="inputP" placeholder="Principal Amount" type="number" />
     <input id="inputI" placeholder="Interest" type="number" />
     <input id="inputY" placeholder="No of Years" type="number" />
-    <button id="submit">Enter</button>
+    <button id="submit">Submit</button>
         
     </form>
   
     <table>
         <tr>
-        <th>Amount at Begining</th>
-        <th>Interest</th>
-        <th>Repayment</th>
-        <th>Amount at End</th>
+        <th>Amount at Begining (A)</th>
+        <th>Interest (B)</th>
+        <th>(A + B = C)</th>
+        <th>Repayment(D)</th>
+        <th>Amount at End(C-D=E)</th>
         
         
         </tr>
-        <tr>
-        <td class="amtB"></td>
-        <td></td>
-        <td class="main"></td>  
-        <td></td> 
+        <ul class="parent">
+        <p class="amtB list "></p> 
+        <p class="interest list"></p>
+        <p class="intP"></p>
+        <p class="main list "></p>  
+        <p class="amtE list"></p> 
             
-        </tr>
+        </ul>
     
         
     
@@ -48,4 +50,4 @@
         </div>
         
     </body>
-</html>
+            </html>
